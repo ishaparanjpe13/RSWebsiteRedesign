@@ -12,6 +12,7 @@
     <!-- Body -->
     <v-content light>
       <nuxt /> 
+      <Nav/>
     </v-content>
     
     <!-- Footer -->
