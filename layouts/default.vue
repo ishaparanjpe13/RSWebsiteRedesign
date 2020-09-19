@@ -11,8 +11,12 @@
 
     <!-- Body -->
     <v-content light>
-      <nuxt/>
-      <Shrink/> 
+      <nuxt/> 
+       <Nav/>
+       <v-card>
+       <align="left"
+       >
+       </v-card>
     </v-content>
     
     <!-- Footer -->

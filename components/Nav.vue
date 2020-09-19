@@ -1,5 +1,5 @@
 <template>
-  <div class="ma-30 pa-0">
+  <div class="ma-10 pa-15">
     <template>
       <v-card>
         <v-navigation-drawer
@@ -15,8 +15,8 @@
 
             <v-list-item link>
               <v-list-item-content>
-                <v-list-item-title class="title">Sandra Adams</v-list-item-title>
-                <v-list-item-subtitle>sandra_a88@gmail.com</v-list-item-subtitle>
+                <v-list-item-title class="title">Isha Paranjpe</v-list-item-title>
+                <v-list-item-subtitle>isha.paranjpe14@nmims.edu.in</v-list-item-subtitle>
               </v-list-item-content>
             </v-list-item>
           </v-list>
