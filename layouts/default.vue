@@ -6,17 +6,16 @@
     <v-app-bar color="indigo" dark fixed app>
       <v-toolbar-title>Royal Sundaram</v-toolbar-title>
        <!-- Component Example -->
-      <VuetifyLogo/>
+      <RoyalSundaramLogo/>
+      <Breadcrumb/>
     </v-app-bar>
 
     <!-- Body -->
     <v-content light>
       <nuxt/> 
-       <Nav/>
-       <v-card>
-       <align="left"
-       >
-       </v-card>
+      <Cards/> <Cards2/> <align="horizontal"/>
+      <Button/>
+      
     </v-content>
     
     <!-- Footer -->
@@ -37,6 +36,6 @@ export default {}
   }
 
    #inspire {
-    background-color: black;
+    background-color: lightcyan;
   }
 </style>
