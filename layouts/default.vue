@@ -1,26 +1,33 @@
 <template>
   <!--Your App Starts Here -->
-  <v-app id="inspire">
+  <v-app>
     
     <!--Header -->
     <v-app-bar color="indigo" dark fixed app>
-      <v-toolbar-title>Royal Sundaram</v-toolbar-title>
+      <v-toolbar-title></v-toolbar-title>
        <!-- Component Example -->
       <RoyalSundaramLogo/>
-      <Breadcrumb/>
+      <Breadcrumb/> 
     </v-app-bar>
 
     <!-- Body -->
     <v-content light>
+      <v-img
+      class="ma-2 mx-2"
+      src="HeadImage.jpg" 
+      height="850px"
+    ></v-img>
       <nuxt/> 
-      <Cards/> <Cards2/> <align="horizontal"/>
-      <Button/>
-      
+      <Stepper/>
+      <Ticks/>
+      <Breakpoint/>
+      <Button2/> <Button/>
     </v-content>
     
     <!-- Footer -->
+    <Footer/>
     <v-footer color="indigo" app>
-      <span class="yellow--text">&copy; {{ new Date().getFullYear() }}</span>
+      <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
 
   </v-app>
