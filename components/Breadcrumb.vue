@@ -15,8 +15,7 @@
   export default {
     data: () => ({
       items: [
-        {
-<<<<<<< HEAD
+        { HEAD
           text: 'Dashboard',
           disabled: false,
           href: 'breadcrumbs_dashboard',
@@ -28,7 +27,7 @@
         },
         {
           text: 'Link 2',
-=======
+
           text: 'Home Page',
           disabled: true,
           href: 'breadcrumbs_dashboard',
