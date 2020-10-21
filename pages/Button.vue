@@ -16,32 +16,18 @@
     data: () => ({
       items: [
         {
-<<<<<<< HEAD
-          text: 'Dashboard',
-          disabled: false,
-          href: 'breadcrumbs_dashboard',
-        },
-        {
-          text: 'Link 1',
-          disabled: false,
-          href: 'breadcrumbs_link_1',
-        },
-        {
-          text: 'Link 2',
-=======
           text: 'Home Page',
-          disabled: true,
+          disabled: false,
           href: 'breadcrumbs_dashboard',
         },
         {
           text: 'Two-Wheeler Insurance',
-          disabled: true,
+          disabled: false,
           href: 'breadcrumbs_link_1',
         },
         {
           text: 'Select Plan',
->>>>>>> 2617b6d69149df8c8746a8f67b453851de96118b
-          disabled: true,
+          disabled: false,
           href: 'breadcrumbs_link_2',
         },
       ],
