@@ -2,7 +2,7 @@
   <v-card
     class="mx-auto"
     flat color="white"
-    max-width="450"
+    max-width="550"
   >
 
     <v-container fluid>
