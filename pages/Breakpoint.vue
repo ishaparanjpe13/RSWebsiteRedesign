@@ -11,7 +11,7 @@
     >
     
       <v-card
-        class=" indigo darken-2 ma-4 pa-6 black--text"
+        class=" indigo-2 ma-4 pa-6 black--text"
         
       >
         <v-card-text>

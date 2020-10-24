@@ -1,25 +1,25 @@
 <template>
   <v-footer
-    dark
+    white
     padless
   >
     <v-card
-      flat
+      flat color="white"
       tile
-      class="indigo lighten-1 white--text text-center"
+      class="white-1 indigo--text text-center"
     >
       <v-card-text>
         <v-btn
           v-for="icon in icons"
           :key="icon"
-          class="mx-4 white--text"
+          class="mx-4 indigo--text"
           icon
         >
-          <v-icon size="24px">{{ icon }}</v-icon>
+          <v-icon size="20px">{{ icon }}</v-icon>
         </v-btn>
       </v-card-text>
 
-      <v-card-text class="white--text pt-0 text-left">
+      <v-card-text class="indigo--text pt-0 text-left">
         Products/Insurance
 
 Car Insurance
@@ -106,8 +106,8 @@ Copyright
 
       <v-divider></v-divider>
 
-      <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+      <v-card-text class="indigo--text">
+        <strong>Royal Sundaram</strong>
       </v-card-text>
     </v-card>
   </v-footer>

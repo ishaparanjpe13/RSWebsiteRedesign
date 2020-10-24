@@ -3,12 +3,14 @@
   <v-col
     cols="12"
     md="12"
+    mx="4"
     >
-  <v-card flat color="black">
+  <v-card flat color="indigo" >
   <v-subheader>Vehicle Value</v-subheader>
 
     <v-card-text>
-      <v-slider
+     <v-slider
+        color="white"
         v-model="Price"
         :tick-labels="ticksLabels"
         :max="5"

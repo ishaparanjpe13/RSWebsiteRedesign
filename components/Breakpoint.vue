@@ -1,6 +1,7 @@
 <template>
   <v-card
     class="mx-auto"
+    color="white"
     max-width="1200"
   >
 
@@ -14,9 +15,9 @@
           <v-card>
             <v-img
               :src="card.src"
-              class="white--text align-end"
-              gradient="to top, rgb(75,0,130), rgb(255, 255, 255)"
-              height="200px"
+              class="blue--text align-end"
+              flat color="white"
+              height="250px"
             >
               <v-card-title v-text="card.title"></v-card-title>
             </v-img>

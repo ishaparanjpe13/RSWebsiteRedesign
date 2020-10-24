@@ -15,19 +15,19 @@
   export default {
     data: () => ({
       items: [
-        { HEAD
+        {
           text: 'Home Page',
-          disabled: true,
+          disabled: false,
           href: 'breadcrumbs_dashboard',
         },
         {
           text: 'Two-Wheeler Insurance',
-          disabled: true,
+          disabled: false,
           href: 'breadcrumbs_link_1',
         },
         {
           text: 'Select Plan',
-         disabled: true,
+          disabled: false,
           href: 'breadcrumbs_link_2',
         },
       ],

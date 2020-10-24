@@ -1,5 +1,5 @@
 <template>
-  <v-stepper value="1">
+  <v-stepper value="1" flat color="white">
     <v-stepper-header>
       <v-stepper-step step="1">Select Plan</v-stepper-step>
 

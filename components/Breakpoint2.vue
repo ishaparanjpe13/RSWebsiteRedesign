@@ -1,28 +1,44 @@
 <template>
+  <v-card
+    class="mx-auto"
+    flat color="white"
+    max-width="600"
+  >
 
-  <v-row
-    >
-    <v-col
-    v-for="i in 1"
-    :key=i
-    cols="12"
-    md="4"
-    sx="4"
-    >
-    
-      <v-card
-        class=" indigo darken-2 ma-4 pa-8 black--text"
-        
-      >
-        <v-card-text>
-          2 Year Plan
-        </v-card-text>
-        <v-card-text>
-          Read More
-        </v-card-text>
-      </v-card>
+    <v-container fluid>
+      <v-row dense>
+        <v-col
+          v-for="card in cards"
+          :key="card.title"
+          :cols="card.flex"
+        >
+          <v-card>
+            <v-img
+              
+              class="blue--text align-center" flat color="white"
+              height="60px"
+            >
+              <v-card-title v-text="card.title"></v-card-title>
+            </v-img>
 
-    </v-col>
-    </v-row>
-    
+            <v-card-actions>
+              
+            </v-card-actions>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-card>
 </template>
+
+<script>
+  export default {
+    data: () => ({
+      cards: [
+        { title: 'Package',  flex: 4 },
+        { title: 'Third Party',  flex: 4 },
+        { title: 'Own Damage', flex: 4 },
+      ],
+    }),
+  }
+</script>
