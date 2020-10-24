@@ -2,6 +2,7 @@
   <!--Your App Starts Here -->
   <v-app id="inspire">
     
+    
     <!--Header -->
     <v-app-bar color="white" 
     class="white-text " dark fixed app >

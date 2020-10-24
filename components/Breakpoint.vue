@@ -1,5 +1,5 @@
 <template>
-  <v-card light
+  <v-card
     class="mx-auto, ma-auto"
     color="white"
     max-width="1200"
@@ -15,8 +15,8 @@
         >
           <v-card>
             <v-img
-              
-              class="black--text align-left"
+              src="two-wheeler-insurance-banner.png"
+              class="white--text align-right"
               flat color="white"
               height="250px"
             >
@@ -40,5 +40,7 @@
         { title: '3 Year Plan', flex: 4 },
       ],
     }),
+
+
   }
 </script>

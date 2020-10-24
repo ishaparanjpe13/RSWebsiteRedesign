@@ -1,22 +1,23 @@
 <template>
 <v-row>
-  <v-col
+  <v-col 
     cols="12 md-12"
     
     
     >
-  <v-card flat color="indigo" >
-  <v-subheader>Vehicle Value</v-subheader>
+  <v-card flat color="blue" >
+  <v-subheader class="indigo--text">Vehicle Value</v-subheader>
 
     <v-card-text>
      <v-slider
-        color="white"
+       class="indigo--text"
+        color="yellow"
         v-model="Price"
         :tick-labels="ticksLabels"
         :max="5"
         step="1"
         ticks="always"
-        tick-size="3"
+        tick-size="4"
       ></v-slider>
     </v-card-text>
   </v-card>
