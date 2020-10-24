@@ -4,7 +4,7 @@
     padless
   >
     <v-card
-      flat color="white"
+      flat color="grey"
       tile
       class="white-1 indigo--text text-center"
     >

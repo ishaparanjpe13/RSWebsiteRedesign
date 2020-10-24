@@ -1,5 +1,5 @@
 <template>
-  <v-card
+  <v-card light
     class="mx-auto, ma-auto"
     color="white"
     max-width="1200"
@@ -15,7 +15,7 @@
         >
           <v-card>
             <v-img
-              src="two-wheeler-insurance-banner.png"
+              
               class="black--text align-left"
               flat color="white"
               height="250px"

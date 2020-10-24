@@ -1,8 +1,8 @@
 <template>
-  <v-card
+  <v-card light
     class="mx-auto"
     flat color="white"
-    max-width="550"
+    max-width="510"
   >
 
     <v-container fluid>
@@ -14,18 +14,18 @@
         >
           <v-card>
             <v-img
-              src="Outline.png"
+              
               class="blue--text align-center" flat color="white"
               height="150px"
             >
               <v-card-title v-text="card.title"></v-card-title>
             </v-img>
             <v-img
-              src="Layer2.png"
+              
             </v-img>
          
           <v-img
-              src="accident.png" 
+              
             </v-img>
           </v-card>
         </v-col>

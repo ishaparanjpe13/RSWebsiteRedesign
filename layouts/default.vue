@@ -3,7 +3,7 @@
   <v-app id="inspire">
     
     <!--Header -->
-    <v-app-bar color="blue" 
+    <v-app-bar color="white" 
     class="white-text " dark fixed app >
        <!-- Component Example -->
       <RoyalSundaramLogo/> <v-spacer> </v-spacer> 
@@ -31,10 +31,9 @@
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="white" app>
+    <v-footer color="black" app>
       <span class="indigo--text"> </span>
      </v-footer>
-
   </v-app>
 </template>
 
