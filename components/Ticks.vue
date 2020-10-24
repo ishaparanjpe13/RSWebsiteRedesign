@@ -1,9 +1,9 @@
 <template>
 <v-row>
   <v-col
-    cols="12"
-    md="12"
-    mx="4"
+    cols="12 md-12"
+    
+    
     >
   <v-card flat color="indigo" >
   <v-subheader>Vehicle Value</v-subheader>

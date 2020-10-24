@@ -5,6 +5,7 @@
         :href="item.href"
         :disabled="item.disabled"
       >
+
         {{ item.text.toUpperCase() }}
       </v-breadcrumbs-item>
     </template>
@@ -30,7 +31,11 @@
           disabled: false,
           href: 'breadcrumbs_link_2',
         },
+        
       ],
     }),
   }
+  {
+         font-color-" rgb(66, 64, 63)"
+         size-"10px"} 
 </script>

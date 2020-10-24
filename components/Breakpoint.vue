@@ -1,8 +1,9 @@
 <template>
   <v-card
-    class="mx-auto"
+    class="mx-auto, ma-auto"
     color="white"
     max-width="1200"
+  
   >
 
     <v-container fluid>
