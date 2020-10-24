@@ -2,7 +2,7 @@
   <v-card
     class="mx-auto"
     flat color="white"
-    max-width="600"
+    max-width="450"
   >
 
     <v-container fluid>
@@ -14,16 +14,19 @@
         >
           <v-card>
             <v-img
-              
+              src="Outline.png"
               class="blue--text align-center" flat color="white"
-              height="60px"
+              height="150px"
             >
               <v-card-title v-text="card.title"></v-card-title>
             </v-img>
-
-            <v-card-actions>
-              
-            </v-card-actions>
+            <v-img
+              src="Layer2.png"
+            </v-img>
+         
+          <v-img
+              src="accident.png" 
+            </v-img>
           </v-card>
         </v-col>
       </v-row>

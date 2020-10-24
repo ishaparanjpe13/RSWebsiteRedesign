@@ -14,17 +14,15 @@
         >
           <v-card>
             <v-img
-              :src="card.src"
-              class="blue--text align-end"
+              src="two-wheeler-insurance-banner.png"
+              class="black--text align-left"
               flat color="white"
               height="250px"
             >
               <v-card-title v-text="card.title"></v-card-title>
             </v-img>
 
-            <v-card-actions>
-              <v-spacer>Read More</v-spacer>
-            </v-card-actions>
+            
           </v-card>
         </v-col>
       </v-row>

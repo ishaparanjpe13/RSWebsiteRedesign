@@ -6,20 +6,25 @@
     <v-app-bar color="blue" 
     class="white-text " dark fixed app >
        <!-- Component Example -->
-      <RoyalSundaramLogo/>
-        <v-toolbar-title>
-          
-         Insurance    About Us    Insta Renew    Contact Us    Blogs    Sign In  
-         </v-toolbar-title>
-         
+      <RoyalSundaramLogo/> <v-spacer> </v-spacer> 
+      <v-spacer> </v-spacer> <v-spacer> </v-spacer> <v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer>
+      <v-row>
+        <Button5/>
+        <Button3/>
+        <Button4/>
+        <Button6/>
+        <Button7/>
+        <Button8/>
+        </v-row> 
+        
     </v-app-bar>
 
     <!-- Body -->
     <v-content light>
        <Breadcrumb/>
       <Stepper/> <Breakpoint2/> <Ticks/> <Breakpoint/>
-      
-      <Button/> <Button2/>
+      <v-spacer> </v-spacer> <v-spacer> </v-spacer>
+      <Button/> <v-spacer> </v-spacer> <Button2/>
       <Footer/>
       <nuxt /> 
      
