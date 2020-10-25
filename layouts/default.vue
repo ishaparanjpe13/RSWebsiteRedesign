@@ -3,6 +3,7 @@
   <v-app id="inspire">
     
     
+    
     <!--Header -->
     <v-app-bar color="white" 
     class="white-text " dark fixed app >
@@ -10,12 +11,14 @@
       <RoyalSundaramLogo/> <v-spacer> </v-spacer> 
       <v-spacer> </v-spacer> <v-spacer> </v-spacer> <v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer>
       <v-row>
+  
         <Button5/>
         <Button3/>
         <Button4/>
         <Button6/>
         <Button7/>
         <Button8/>
+        
         </v-row> 
         
     </v-app-bar>
@@ -26,13 +29,12 @@
       <Stepper/> <Breakpoint2/> <Ticks/> <Breakpoint/>
       <v-spacer> </v-spacer> <v-spacer> </v-spacer>
       <Button/> <v-spacer> </v-spacer> <Button2/>
-      <Footer/>
       <nuxt /> 
-     
+     <Footer/>
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="black" app>
+    <v-footer color="indigo" app>
       <span class="indigo--text"> </span>
      </v-footer>
   </v-app>

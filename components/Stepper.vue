@@ -1,5 +1,5 @@
 <template>
-  <v-stepper value="1" light >
+  <v-stepper value="1" light class="mb-3" >
   
     <v-stepper-header>
       <v-stepper-step step="1">Select Plan</v-stepper-step>

@@ -15,10 +15,10 @@
         >
           <v-card>
             <v-img
-              src="two-wheeler-insurance-banner.png"
+              :src="card.src"
               class="white--text align-right"
               flat color="white"
-              height="250px"
+              height="350px"
             >
               <v-card-title v-text="card.title"></v-card-title>
             </v-img>
@@ -35,9 +35,9 @@
   export default {
     data: () => ({
       cards: [
-        { title: '1 Year Plan',  flex: 4 },
-        { title: '2 Year Plan',  flex: 4 },
-        { title: '3 Year Plan', flex: 4 },
+        { title: '1 Year Plan',src: "two-wheeler-insurance-banner.png" ,  flex: 4 },
+        { title: '2 Year Plan', src:"two-wheeler-and-four-wheeler-insurance-agency-500x500.png",  flex: 4 },
+        { title: '3 Year Plan', src:"long_term_TW.png" ,flex: 4 },
       ],
     }),
 

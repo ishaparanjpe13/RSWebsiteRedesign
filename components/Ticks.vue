@@ -1,8 +1,8 @@
 <template>
 <v-row>
   <v-col 
-    cols="12 md-12"
-    
+    cols="11 md-11"
+    class="ml-12"
     
     >
   <v-card flat color="blue" >

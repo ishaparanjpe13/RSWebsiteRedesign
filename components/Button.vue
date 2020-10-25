@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center ma-12">
+  <div class="text-center ma-12, mt-3">
     <v-btn rounded color="indigo blue" dark>Back to Get Quote</v-btn>
   </div>
 </template>
