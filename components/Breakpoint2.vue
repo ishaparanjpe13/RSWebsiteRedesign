@@ -3,7 +3,7 @@
     justify="center"
     class="mx-auto, ma-auto"
     flat 
-    max-width="600"
+    max-width="550"
   >
 
     <v-container>
@@ -19,9 +19,9 @@
             
            <v-img
               :src="card.src"
-              class="black--text align-center"
-              flat color="white"
-              height="160px"
+              class="white--text align-end"
+              color="white"
+              height="190px"
             >
               <v-card-title v-text="card.title"></v-card-title>
             </v-img>
@@ -38,9 +38,9 @@
   export default {
     data: () => ({
       cards: [
-        { title: 'Package', src: "Outline.png" , flex: 4},
-        { title: 'Third Party', src: "Layer 2.png" ,  flex: 4 },
-        { title: 'Own Damage',src: "accident.png", flex: 4 },
+        { title: 'Package', src: "package.png" , flex: 4},
+        { title: 'Third Party', src: "thirdparty.png" ,  flex: 4 },
+        { title: 'Own Damage',src: "owndamage.png", flex: 4 },
       ],
     }),
   }

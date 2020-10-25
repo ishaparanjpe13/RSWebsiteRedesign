@@ -17,14 +17,21 @@
             <v-img
               :src="card.src"
               class="white--text align-right"
-              flat color="white"
+              color="white"
               height="350px"
             >
               <v-card-title v-text="card.title"></v-card-title>
             </v-img>
-
-            
-          </v-card>
+            <v-card-actions>
+      <v-btn
+        text
+        class="indigo--text"
+        color="white"
+      >
+        Read More
+      </v-btn>
+    </v-card-actions>
+     </v-card>
         </v-col>
       </v-row>
     </v-container>

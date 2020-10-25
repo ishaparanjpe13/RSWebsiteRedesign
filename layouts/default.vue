@@ -3,11 +3,14 @@
   <v-app id="inspire">
     
     
-    
     <!--Header -->
+    <!--Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other-->
+     
+
     <v-app-bar color="white" 
-    class="white-text " dark fixed app >
+    class="white-text " dark fixed app>
        <!-- Component Example -->
+       
       <RoyalSundaramLogo/> <v-spacer> </v-spacer> 
       <v-spacer> </v-spacer> <v-spacer> </v-spacer> <v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer><v-spacer> </v-spacer>
       <v-row>

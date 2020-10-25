@@ -1,13 +1,16 @@
 <template>
+
   <v-footer
+  
     color="primary lighten-1"
-    paded
-    class="mt-6"
-    justify="left"
+    class="mt-8"
+    justify="center"
+    
   >
+  
     <v-row
-      justify="left"
-      no-gutters
+      justify="center"
+    
     >
       <v-btn
         v-for="link in links"
@@ -22,13 +25,14 @@
       <v-col
         class="primary lighten-1 py-12 text-center indigo--text"
         cols="8"
-        no-gutters
         justify="left"
       >
        <strong>Royal Sundaram</strong>
       </v-col>
     </v-row>
+
   </v-footer>
+  
 </template>
 <script>
   export default {
@@ -51,7 +55,6 @@
         'Health Insurance Premium Calculator',
         'Trusted Repair Shop',
         'Articles on Car Insurance',
-
         'Car Insurance Comparison',
         'No Claim Bonus',
         'Types of car insurance in India',
@@ -59,20 +62,17 @@
         'Car Insurance Claim Process',
         'View All',
         'Articles on Travel Insurance',
-
         'Travel Plans Comparison',
         'Multi-Trip Travel Insurance',
         'Selecting Best Travel Insurance Policy',
         'Travel Insurance Coverage Tips',
         'View All',
-        'Articles on Two-Wheeler Insurance',
-
+        'Articles on Two-Wheeler Insurance', 
         'Comprehensive vs Third Party Bike Insurance',
         'Insured Declared Value',
         'About Two Wheeler Premium Calculator',
         'View All',
         'Info Centre',
-
         'Insurance Glossary',
         'Insurance Infographics',
         'Travel Insurance by Country',
@@ -82,7 +82,6 @@
         'Motor 101',
         'Health 101',
         'Articles on Health Insurance',
-
         'Maternity health insurance',
         'Health Insurance Comparison',
         'Mediclaim Policy',
@@ -90,14 +89,12 @@
         'Health insurance for parents',
         'View All',
         'Articles on Home Insurance',
-
         'Home Insurance Claim Process Tips',
         'Types of Property Insurance Policy',
         'Home Insurance Coverage',
         'Home Insurance vs Home Warranty',
         'View All',
         'General Info',
-
         'About Us',
         'Careers',
         'Contact Us',
@@ -107,11 +104,9 @@
         'Unclaimed Amount of Policyholders',
         'Cashless Garage',
         'Services',
-
         'Customer Services',
         'Claim Services',
         'Public Info',
-
         'Disclaimer',
         'Copyright',
       ],
