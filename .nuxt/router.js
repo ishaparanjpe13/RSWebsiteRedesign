@@ -22,7 +22,7 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: decodeURI('/webdev-starter-materialUI/'),
+  base: decodeURI('/RSWebsiteRedesign/'),
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
