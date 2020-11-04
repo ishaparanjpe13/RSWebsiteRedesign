@@ -3,42 +3,49 @@
     "name": "Breakpoint",
     "path": "/Breakpoint",
     "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Breakpoint.vue",
-    "chunkName": "pages/Breakpoint"
+    "chunkName": "pages/Breakpoint",
+    "_name": "_47815c28"
   },
   {
     "name": "Button",
     "path": "/Button",
     "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Button.vue",
-    "chunkName": "pages/Button"
+    "chunkName": "pages/Button",
+    "_name": "_0ee5c32e"
   },
   {
     "name": "Floating",
     "path": "/Floating",
     "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Floating.vue",
-    "chunkName": "pages/Floating"
+    "chunkName": "pages/Floating",
+    "_name": "_ddbced06"
   },
   {
     "name": "Footer",
     "path": "/Footer",
     "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Footer.vue",
-    "chunkName": "pages/Footer"
+    "chunkName": "pages/Footer",
+    "_name": "_37da5052"
   },
   {
     "name": "inspire",
     "path": "/inspire",
     "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\inspire.vue",
-    "chunkName": "pages/inspire"
+    "chunkName": "pages/inspire",
+    "_name": "_9b11f25a"
   },
   {
     "name": "Stepper",
     "path": "/Stepper",
     "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Stepper.vue",
-    "chunkName": "pages/Stepper"
+    "chunkName": "pages/Stepper",
+    "_name": "_3cc3e1ac"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_bc7fb5ea"
   }
 ]
