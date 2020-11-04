@@ -65,7 +65,6 @@
       <v-spacer> </v-spacer> <v-spacer> </v-spacer>
       <Button/> <v-spacer> </v-spacer> <Button2/>
       <nuxt /> 
-     <Footer/>
       <nuxt /> 
     </v-content>
     
