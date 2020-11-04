@@ -1,17 +1,16 @@
 <template>
 
-  <v-row
-    >
+  <v-row>
     <v-col
-    v-for="i in 3"
-    :key=i
-    cols="12"
-    md="6"
-    sx="6"
+      v-for="i in 3"
+      :key=i
+      cols="12"
+      md="6"
+      sx="6"
     >
     
       <v-card
-        class=" indigo-2 ma-4 pa-6 black--text"
+        class=" indigo-2 ma-4 pa-6 white--text"
         
       >
         <v-card-text>

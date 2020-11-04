@@ -2,3 +2,19 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+
+/**
+ * Override Vuetify variables as you normally would
+ * NOTE: remember to provide a fallback for browsers that don't support Custom Properties
+ * In my case, I've used the mobile font-sizes as a fallback
+
+*/
+
+$headings: (
+    'h1': (
+        'size': var(--headings-size-h1, 28px),
+    ),
+    'h2': (
+        'size': var(--headings-size-h2, 22px),
+    )
+);

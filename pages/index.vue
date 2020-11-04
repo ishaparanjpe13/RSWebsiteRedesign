@@ -1,9 +1,14 @@
-<!-- public/index.html -->
 <template>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-</head>
-</html>
-    
+  <div>
+    <v-content>
+      <v-toolbar-title class="blue-grey lighten-4">
+      </v-toolbar-title>
+    </v-content>
+  </div>
 </template>
+
+<script>
+</script>
+
+<style> 
+</style>

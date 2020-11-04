@@ -7,7 +7,7 @@ export default {
   */
   mode: 'spa',
   router: {
-    base: '/RSWebsiteRedesign/'
+    base: '/webdev-starter-materialUI/'
   },
   /*
   ** Nuxt target

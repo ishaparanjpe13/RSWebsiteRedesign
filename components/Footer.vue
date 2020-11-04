@@ -7,7 +7,7 @@
     justify="center"
     
   >
-  
+    <p>
     <v-row
       justify="center"
     
@@ -30,9 +30,9 @@
        <strong>Royal Sundaram</strong>
       </v-col>
     </v-row>
-
+    </p>
   </v-footer>
-  
+
 </template>
 <script>
   export default {

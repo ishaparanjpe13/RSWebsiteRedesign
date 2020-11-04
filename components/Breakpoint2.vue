@@ -4,18 +4,18 @@
     class="mx-auto, ma-auto"
     flat 
     max-width="550"
-  >
+    outlined>
 
     <v-container>
        
       <v-row light>
         
-        <v-col
+        <v-col xs12 sm6 md4 lg3
           v-for="card in cards"
           :key="card.title"
           :cols="card.flex"
         >
-          <v-card>
+          <v-card flat class="text-xs-center" outlined> 
             
            <v-img
               :src="card.src"
@@ -23,7 +23,9 @@
               color="white"
               height="190px"
             >
-              <v-card-title v-text="card.title"></v-card-title>
+              <v-card-title>
+                <div class="caption text-decoration-underline font-weight-black" >{{card.title}}</div>
+              </v-card-title>
             </v-img>
   
           </v-card>

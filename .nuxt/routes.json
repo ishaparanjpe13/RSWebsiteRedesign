@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Breakpoint",
+    "path": "/Breakpoint",
+    "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Breakpoint.vue",
+    "chunkName": "pages/Breakpoint"
+  },
+  {
+    "name": "Button",
+    "path": "/Button",
+    "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Button.vue",
+    "chunkName": "pages/Button"
+  },
+  {
+    "name": "Floating",
+    "path": "/Floating",
+    "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Floating.vue",
+    "chunkName": "pages/Floating"
+  },
+  {
+    "name": "Footer",
+    "path": "/Footer",
+    "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Footer.vue",
+    "chunkName": "pages/Footer"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire"
+  },
+  {
+    "name": "Stepper",
+    "path": "/Stepper",
+    "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\Stepper.vue",
+    "chunkName": "pages/Stepper"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\ishap\\\\Documents\\\\RSWebsiteRedesign\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
