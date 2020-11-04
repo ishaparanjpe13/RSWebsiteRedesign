@@ -10,7 +10,6 @@ export { default as Button6 } from '../..\\components\\Button6.vue'
 export { default as Button7 } from '../..\\components\\Button7.vue'
 export { default as Button8 } from '../..\\components\\Button8.vue'
 export { default as Floating } from '../..\\components\\Floating.vue'
-export { default as Footer } from '../..\\components\\Footer.vue'
 export { default as RoyalSundaramLogo } from '../..\\components\\RoyalSundaramLogo.vue'
 export { default as Stepper } from '../..\\components\\Stepper.vue'
 export { default as Ticks } from '../..\\components\\Ticks.vue'
@@ -27,7 +26,6 @@ export const LazyButton6 = import('../..\\components\\Button6.vue' /* webpackChu
 export const LazyButton7 = import('../..\\components\\Button7.vue' /* webpackChunkName: "components_Button7" */).then(c => c.default || c)
 export const LazyButton8 = import('../..\\components\\Button8.vue' /* webpackChunkName: "components_Button8" */).then(c => c.default || c)
 export const LazyFloating = import('../..\\components\\Floating.vue' /* webpackChunkName: "components_Floating" */).then(c => c.default || c)
-export const LazyFooter = import('../..\\components\\Footer.vue' /* webpackChunkName: "components_Footer" */).then(c => c.default || c)
 export const LazyRoyalSundaramLogo = import('../..\\components\\RoyalSundaramLogo.vue' /* webpackChunkName: "components_RoyalSundaramLogo" */).then(c => c.default || c)
 export const LazyStepper = import('../..\\components\\Stepper.vue' /* webpackChunkName: "components_Stepper" */).then(c => c.default || c)
 export const LazyTicks = import('../..\\components\\Ticks.vue' /* webpackChunkName: "components_Ticks" */).then(c => c.default || c)

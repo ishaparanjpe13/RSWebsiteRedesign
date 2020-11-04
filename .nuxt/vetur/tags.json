@@ -71,12 +71,6 @@
   "LazyFloating": {
     "description": "Auto imported from components/Floating.vue"
   },
-  "Footer": {
-    "description": "Auto imported from components/Footer.vue"
-  },
-  "LazyFooter": {
-    "description": "Auto imported from components/Footer.vue"
-  },
   "RoyalSundaramLogo": {
     "description": "Auto imported from components/RoyalSundaramLogo.vue"
   },
